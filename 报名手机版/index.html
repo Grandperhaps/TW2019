@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>FullScreen Slider</title>
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/baoming1.css">
+      <link rel="stylesheet" href="css/effect.css">
+      <script src="http://libs.baidu.com/jquery/2.0.0/jquery.js"></script>
+      <script type="text/javascript" src="js/effect.js"></script>
+<style>.l-page { visibility: hidden; }</style>
+
+<link rel="preload" as="style" href="css/main.min.css" onload="this.onload=null;this.rel='stylesheet'"> 
+
+</head>
+<body>
+
+    <div class="l-page" data-page-id="index">
+     
+      <div class="l-contents">
+        <div class="p-sections-wrap js-fullscreen-wrap">
+          <div class="p-section p-section--01 js-fullscreen-section">
+            <div class="p-section__in">
+              <h2 class="p-section__header">Section1</h2>
+              <p class="p-section__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br>Aenean commodo ligula eget dolor. Aenean massa.</p>
+            </div>
+          </div>
+          <div class="p-section p-section--02 js-fullscreen-section">
+            <div class="p-section__in">
+              <h2 class="p-section__header">Section2</h2>
+              <p class="p-section__text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<br>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.<br>Nulla consequat massa quis enim.</p>
+            </div>
+          </div>
+          <div class="p-section p-section--03 js-fullscreen-section">
+            <div class="p-section__in">
+              <h2 class="p-section__header">Section3</h2>
+              <p class="p-section__text">Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.<br>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.<br>Nullam dictum felis eu pede mollis pretium.</p>
+            </div>
+          </div>
+          <div class="p-section p-section--04 js-fullscreen-section">
+            <div class="p-section__in">
+              <h2 class="p-section__header">Section4</h2>
+              <p class="p-section__text">Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.<br>Aenean vulputate eleifend tellus.<br>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+            </div>
+          </div>
+
+
+
+
+
+
+          <div class="p-section p-section--05 js-fullscreen-section">
+
+            <div class="p-section__in">
+
+              <div id="index-five" class="p-section__text" style="background-image: url(img/timg11.jpg);
+    background-size:100% 100%;
+    background-repead:no-repead;">
+                <div class="textcontainer">
+        <span class="particletext confetti">
+          <span class="text">ThoughtWorks
+          </span>
+        </span>
+      <span class="smallfont">Come and join us.
+      </span>
+    </div>
+        <div class="body2">
+          <div style="display: none;padding-top: 10%;" id="body3">
+              <button type="button" class="btn btn-info btn-lg" id="button2" onclick="checkSubmit()">报名
+              </button> 
+            </div>
+            <!-- <input id="input1" class="input1" type="text" name="姓名" placeholder="手机";>
+            <input id="input2" class="input1" type="password" name="姓名" placeholder="密码";> -->
+
+<div class="group" id="ainput1">
+            <input type="text" id="input1" required="required" /><span class="highlight"></span><span class="bar"></span>
+            <label>手机</label>
+        </div>
+
+
+            
+<div class="group" id="ainput2">
+            <input type="password" id="input2" required="required" /><span class="highlight"></span><span class="bar"></span>
+            <label>密码</label>
+        </div>
+
+            
+      <input type="submit" class="btn btn-info btn-lg" id="button1" value="登陆" onclick="checkSubmit1()">
+      </input>
+      <a href="baoming.html"> 
+            <button type="button" class="btn btn-info btn-lg" id="button2">注册
+            </button>
+          </a> 
+      </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-pager js-fullscreen-pager">
+          <div class="p-pager__in">
+            <div class="p-pager__pointer js-fullscreen-pager-pointer js-hover"></div>
+            <div class="p-pager__pointer js-fullscreen-pager-pointer js-hover"></div>
+            <div class="p-pager__pointer js-fullscreen-pager-pointer js-hover"></div>
+            <div class="p-pager__pointer js-fullscreen-pager-pointer js-hover"></div>
+            <div class="p-pager__pointer js-fullscreen-pager-pointer js-hover"></div>
+            <div class="p-pager__bar"></div>
+          </div>
+        </div>
+        <div class="p-background js-fullscreen-bg"></div>
+      </div>
+    </div>
+	<script type="text/javascript" src="js/baoming1.js"> 
+      </script>
+    <script src="js/main.min.js"></script>
+	
+  </body>
+</html>
